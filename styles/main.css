@@ -1,0 +1,32 @@
+@import url('https://fonts.cdnfonts.com/css/itc-benguiat-std');
+
+body {
+    background-image: url("../images/tree-paths.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'ITC Benguiat Std', sans-serif;
+}
+
+body h1 {
+    text-align: center;
+    color: #4CAF50;
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+/* Main div, box in centre with green background and fancy border */
+div#adventure {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+div .pg {
+    display: none;
+}
+

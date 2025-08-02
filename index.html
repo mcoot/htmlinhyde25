@@ -1,0 +1,118 @@
+<html>
+<head>
+  <title>A Thing</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="scripts/main.js"></script>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1>Choose your own HTMLventure</h1>
+  <div id="adventure">
+
+    <div class="pg" id="p-start">
+      <p>
+        You encounter a html document in a forest.
+      </p>
+      <p>It is affixed to a monstrous oak which sits as if deliberately placed in a fork between two paths.</p>
+      <p>
+        The layout of this document seems... unplanned. Almost like a desire trail in the metaphorical woods you find yourself in at this moment. 
+        
+      </p>
+      <p>
+        One path gives a strong feeling of a road not taken; a vision of HTML centred on communication from a human to humans. 
+      </p>
+      <p>
+        The other path feels more like an actual history. Real, but impersonal and shaped by forces with (at best) a motive orthogonal to shared humanity.
+      </p>
+      <p>The document presents you with two links. It is up to you which path you take.</p>
+      <div class="pg-choice">
+        <ol>
+          <li class="pg-opt">
+            <a href="#p-1">Take the left path.</a>
+            <p> Its corresponding link is a purest blue - 
+              nobody has been down this in a long time.</p>
+            <p>
+              This path seems at once untouched, like it sprang fully formed with the world, 
+              but on closer inspection it shows signs of <em>structure</em> and <em>intention</em>. Someone made this.
+            </p>
+          </li>
+          <li class="pg-opt">
+            <a href="#p-3">Take the right path.</a>
+            <p> This link is deep purple and the path well-worn.</p>
+            <p>
+              If you take this link, know you are just one among many. You sense that behind this door you will find frameworks.
+            </p>
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="pg" id="p-1">
+      <p>
+        You choose the left path. As the link turns purple you feel a certain peace.
+      </p>
+      <p>
+        Not ten metres further, you see a new document. This is way cooler than the last one. It uses the latest in html technology to wow you with the full force of the Information Superhighway.
+      </p>
+      <marquee>It has marquees!</marquee>
+      <blink>It would have had blink elements too if you looked at this on a browser that still supported it.</blink>
+      <p style="color: red;">It even has colours.</p>
+      <p>
+        And the best part of it all - the content is self-describing. 
+        The marquee block is about marquees, the blink block isn't working but if it did, the innerHTML would be about blinks. 
+        The red block is about itself.
+      </p>
+      <div class="pg-choice">
+        <ol>
+          <li class="pg-opt">
+            <a href="#pg-2">Walk further along the path, with a new appreciation for the power of Hypermedia.</a>
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="pg" id="p-2">
+      You've been walking now for... hours? Minutes? You've lost all sense of time, communing with the spirits of the information age.
+      <div class="pg-choice">
+        <ol>
+          <li class="pg-opt">
+            <a>Do the first thing</a>
+          </li>
+          <li class="pg-opt">
+            <a>Do the second thing</a>
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="pg" id="p-3">
+      <p>
+        You head down the right path. 
+        It turns out this path was a metaphor for React and corporate software development and now you can probably make a lot of money
+        but your pages will just get slower and slower over time, and more laden with trackers and advertisements.
+      </p>
+      <p>
+        There's no going back. The whole web is like this now.
+      </p>
+      <div class="pg-choice">
+        <ol>
+          <li class="pg-opt">
+            <a href="#p-end">Accept your fate.</a>
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="pg" id="p-end">
+      This is the end.
+      <div class="pg-choice">
+        <ol>
+          <li class="pg-opt">
+            <a href="#p-start">Reset</a>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
